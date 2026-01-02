@@ -52,7 +52,8 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 114459215557555358, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  m_ItemDefinition: {fileID: 114459215557555358, guid: 5481010ef14c32f4cb7b6661b0c59fb4,
+    type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 21
   m_AnimatorMovementSetID: 0
@@ -139,11 +140,13 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 5031970493140303904
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303905
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &4397421028077266898
@@ -338,7 +341,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1151095698550423579
-      type: {class: RepeatCombo, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
+      type: {class: RepeatCombo, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -370,7 +374,8 @@ MonoBehaviour:
             m_StateName: BodyPunch
             m_ItemSubstateIndex: 2
             m_AudioClipSet:
-              m_AudioConfig: {fileID: 11400000, guid: e4b7f849c28cfdc4e813461782712ea4, type: 2}
+              m_AudioConfig: {fileID: 11400000, guid: e4b7f849c28cfdc4e813461782712ea4,
+                type: 2}
               m_AudioClips: []
           - m_States:
             - m_Name: Default
@@ -383,11 +388,13 @@ MonoBehaviour:
             m_StateName: BodyPunch
             m_ItemSubstateIndex: 3
             m_AudioClipSet:
-              m_AudioConfig: {fileID: 11400000, guid: e4b7f849c28cfdc4e813461782712ea4, type: 2}
+              m_AudioConfig: {fileID: 11400000, guid: e4b7f849c28cfdc4e813461782712ea4,
+                type: 2}
               m_AudioClips: []
           - m_States:
             - m_Name: FirstPerson
-              m_Preset: {fileID: 11400000, guid: 561d81a64dc9ae64891e249daa52cdee, type: 2}
+              m_Preset: {fileID: 11400000, guid: 561d81a64dc9ae64891e249daa52cdee,
+                type: 2}
               m_BlockList: []
               m_Default: 0
             - m_Name: Default
@@ -400,15 +407,18 @@ MonoBehaviour:
             m_StateName: BodyKick
             m_ItemSubstateIndex: 4
             m_AudioClipSet:
-              m_AudioConfig: {fileID: 11400000, guid: b688cc2b704956d4aaed6907a4418dc0, type: 2}
+              m_AudioConfig: {fileID: 11400000, guid: b688cc2b704956d4aaed6907a4418dc0,
+                type: 2}
               m_AudioClips: []
         m_AllowAttackCombos: 1
     - rid: 1151095698550423580
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303907
-      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -434,7 +444,8 @@ MonoBehaviour:
           m_WaitForSlotEvent: 0
         m_SingleHit: 0
     - rid: 5031970493140303909
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: BodyPunch
@@ -461,7 +472,8 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 5031970521274384387
-      type: {class: SphereOverlapCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
+      type: {class: SphereOverlapCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -489,7 +501,8 @@ MonoBehaviour:
         m_SphereCenter: {x: 0, y: 1, z: 1}
         m_SphereRadius: 1
     - rid: 5031970521274384388
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -511,7 +524,8 @@ MonoBehaviour:
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
     - rid: 5031970521274384389
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -524,9 +538,11 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: 39f7f8087c25c66459cca14d29f1d1aa, type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: 39f7f8087c25c66459cca14d29f1d1aa,
+          type: 2}
     - rid: 5031970521274384390
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: BodyKick
@@ -553,7 +569,8 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 5031970521274384391
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -575,7 +592,8 @@ MonoBehaviour:
         m_ImpactRadius: 0.3
         m_ScaleDamageByImpactStrength: 0
     - rid: 5031970521274384392
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -588,4 +606,5 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: f0006b0ff2bda3e408a18a788a162bc7, type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: f0006b0ff2bda3e408a18a788a162bc7,
+          type: 2}

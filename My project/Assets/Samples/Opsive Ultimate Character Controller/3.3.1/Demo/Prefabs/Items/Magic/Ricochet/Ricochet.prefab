@@ -44,7 +44,6 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -184,7 +183,8 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 114679104364087316, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  m_ItemDefinition: {fileID: 114679104364087316, guid: 5481010ef14c32f4cb7b6661b0c59fb4,
+    type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 63
   m_AnimatorMovementSetID: 0
@@ -271,11 +271,13 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 689388803770023972
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 689388803770023973
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &108117441
@@ -476,7 +478,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -487,7 +490,8 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 5031970604905398297
-      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
+      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -519,16 +523,19 @@ MonoBehaviour:
             m_StateName: 
             m_ItemSubstateIndex: 2
             m_AudioClipSet:
-              m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3, type: 2}
+              m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3,
+                type: 2}
               m_AudioClips: []
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
     - rid: 5031970604905398298
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970604905398302
-      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -579,7 +586,8 @@ MonoBehaviour:
         m_InterruptSource: 0
         m_CastUpdateOnCast: 0
     - rid: 5031970604905398308
-      type: {class: SpawnProjectile, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects, asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnProjectile, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -594,13 +602,15 @@ MonoBehaviour:
         m_Delay: 0
         m_InitialDelay: -1
         m_AllowMultiTarget: 1
-        m_ProjectilePrefab: {fileID: 7690434838689712164, guid: d484f875c177b324596d299e7ef9c151, type: 3}
+        m_ProjectilePrefab: {fileID: 7690434838689712164, guid: d484f875c177b324596d299e7ef9c151,
+          type: 3}
         m_PositionOffset: {x: 0, y: 0, z: 0}
         m_RotationOffset: {x: 0, y: 0, z: 0}
         m_Speed: 20
         m_ParentToOrigin: 0
     - rid: 6628036693304541184
-      type: {class: RicochetImpact, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
+      type: {class: RicochetImpact, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -631,7 +641,8 @@ MonoBehaviour:
             serializedVersion: 2
             m_Bits: 67108864
     - rid: 6628036693304541185
-      type: {class: GenericMagicImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMagicImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -653,7 +664,8 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 6628036693304541186
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -666,10 +678,12 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3, type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: e33d5a179a6234e44848bb39d5e4acc3,
+            type: 2}
           m_AudioClips: []
     - rid: 6628036693304541187
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -816,7 +830,6 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

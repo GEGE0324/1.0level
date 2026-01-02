@@ -63,7 +63,6 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -192,7 +191,6 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -333,7 +331,8 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 114327507680120068, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  m_ItemDefinition: {fileID: 114327507680120068, guid: 5481010ef14c32f4cb7b6661b0c59fb4,
+    type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 66
   m_AnimatorMovementSetID: 0
@@ -420,11 +419,13 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 0
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 1
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &1650891161
@@ -630,7 +631,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1151095891258769428
-      type: {class: ActivateStates, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
+      type: {class: ActivateStates, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -648,7 +650,8 @@ MonoBehaviour:
         m_StateNames:
         - UsingTeleport
     - rid: 5031970604905398320
-      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
+      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -685,11 +688,13 @@ MonoBehaviour:
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
     - rid: 5031970604905398321
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970604905398322
-      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic, asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleCaster, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -740,7 +745,8 @@ MonoBehaviour:
         m_InterruptSource: 0
         m_CastUpdateOnCast: 0
     - rid: 5031970604905398323
-      type: {class: SpawnParticle, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions, asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnParticle, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -752,12 +758,14 @@ MonoBehaviour:
         m_Enabled: 1
         m_ID: -1
         m_Name: 
-        m_ParticlePrefab: {fileID: 49107415862772703, guid: 8f6223943e2123c47ba26fc2bd6bdc82, type: 3}
+        m_ParticlePrefab: {fileID: 49107415862772703, guid: 8f6223943e2123c47ba26fc2bd6bdc82,
+          type: 3}
         m_PositionOffset: {x: 0, y: 0.035, z: 0}
         m_RotationOffset: {x: 0, y: 0, z: 0}
         m_ParentToOrigin: 0
     - rid: 5031970604905398324
-      type: {class: FadeMaterials, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions, asm: Opsive.UltimateCharacterController}
+      type: {class: FadeMaterials, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -776,7 +784,8 @@ MonoBehaviour:
         m_FadeSpeed: 0.02
         m_RevertFadeOnStop: 0
     - rid: 5031970604905398325
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions, asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -789,12 +798,14 @@ MonoBehaviour:
         m_ID: -1
         m_Name: 
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: 16ac9f82f1afcd549b1d1784bd38386f, type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: 16ac9f82f1afcd549b1d1784bd38386f,
+            type: 2}
           m_AudioClips: []
         m_PlayAtOrigin: 1
         m_Loop: 0
     - rid: 5031970604905398326
-      type: {class: Teleport, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects, asm: Opsive.UltimateCharacterController}
+      type: {class: Teleport, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -811,7 +822,8 @@ MonoBehaviour:
         m_AllowMultiTarget: 1
         m_SnapAnimator: 0
     - rid: 5031970604905398328
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects, asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -827,14 +839,16 @@ MonoBehaviour:
         m_InitialDelay: -1
         m_AllowMultiTarget: 1
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: eb8866102b7b2424e91404b86f2fbba5, type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: eb8866102b7b2424e91404b86f2fbba5,
+            type: 2}
           m_AudioClips: []
         m_PlayAtOrigin: 1
         m_Loop: 0
         m_FadeOutDuration: 0.1
         m_FadeStep: 0.05
     - rid: 5031970604905398329
-      type: {class: SpawnParticle, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects, asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnParticle, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.CastEffects,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -849,7 +863,8 @@ MonoBehaviour:
         m_Delay: 0
         m_InitialDelay: -1
         m_AllowMultiTarget: 1
-        m_ParticlePrefab: {fileID: 6220600774314911285, guid: ef5d37783489b2d47881c49cc5e22740, type: 3}
+        m_ParticlePrefab: {fileID: 6220600774314911285, guid: ef5d37783489b2d47881c49cc5e22740,
+          type: 3}
         m_PositionOffset: {x: 0, y: 0.035, z: 0}
         m_RotationOffset: {x: 0, y: 0, z: 0}
         m_ParentToOrigin: 0
@@ -863,7 +878,8 @@ MonoBehaviour:
         m_MaterialColorName: _TintColor
         m_FadeStep: 0.05
     - rid: 5031970604905398330
-      type: {class: FadeMaterials, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions, asm: Opsive.UltimateCharacterController}
+      type: {class: FadeMaterials, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Magic.StartStopActions,
+        asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -944,6 +960,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 8f4293d5662d3ad4d99138a364b1d6ed, type: 3}
 --- !u!4 &4429088399751377 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4429088526193276, guid: 8f4293d5662d3ad4d99138a364b1d6ed, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4429088526193276, guid: 8f4293d5662d3ad4d99138a364b1d6ed,
+    type: 3}
   m_PrefabInstance: {fileID: 150383277}
   m_PrefabAsset: {fileID: 0}
