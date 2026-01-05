@@ -1512,10 +1512,8 @@ MonoBehaviour:
   m_DefaultLoadout:
   - ItemDefinition: {fileID: -1300410014362135325, guid: 33153a6ddff386f4b83335c2d1bcbca2, type: 2}
     Amount: 1
-  - ItemDefinition: {fileID: 5131696629677764199, guid: 33153a6ddff386f4b83335c2d1bcbca2, type: 2}
+  - ItemDefinition: {fileID: -1864166006721302105, guid: 33153a6ddff386f4b83335c2d1bcbca2, type: 2}
     Amount: 1
-  - ItemDefinition: {fileID: 5037061326964697182, guid: 33153a6ddff386f4b83335c2d1bcbca2, type: 2}
-    Amount: 100
   m_RemoveExceptions: []
 --- !u!114 &681658962
 MonoBehaviour:

@@ -58,15 +58,13 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 114544757700045432, guid: 5481010ef14c32f4cb7b6661b0c59fb4,
-    type: 2}
+  m_ItemDefinition: {fileID: 114544757700045432, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
   m_SlotID: 0
   m_AnimatorItemID: 24
   m_AnimatorMovementSetID: 1
   m_DominantItem: 1
   m_AllowCameraZoom: 0
-  m_DropPrefab: {fileID: 4411290625623894913, guid: ef80bb3e228b7634baf2554327ccbd15,
-    type: 3}
+  m_DropPrefab: {fileID: 4411290625623894913, guid: ef80bb3e228b7634baf2554327ccbd15, type: 3}
   m_FullInventoryDrop: 0
   m_EquipEvent:
     m_WaitForAnimationEvent: 1
@@ -149,13 +147,11 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 4821689494049128465
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 4821689494049128466
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &114524038580604792
@@ -347,8 +343,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 4821689494049128467
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
 --- !u!114 &6047001740247875694
@@ -416,8 +411,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -428,8 +422,7 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 4821689494049128470
-      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -455,8 +448,7 @@ MonoBehaviour:
           m_WaitForSlotEvent: 0
         m_SingleHit: 0
     - rid: 4821689494049128471
-      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -501,8 +493,7 @@ MonoBehaviour:
             m_SingleHit: 0
             m_SurfaceImpact: {fileID: 0}
     - rid: 4821689494049128473
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -526,8 +517,7 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 4821689494049128474
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -549,8 +539,7 @@ MonoBehaviour:
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
     - rid: 4821689494049128475
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -563,11 +552,9 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb,
-          type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb, type: 2}
     - rid: 4821689494049128476
-      type: {class: SimpleRecoil, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleRecoil, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -598,13 +585,11 @@ MonoBehaviour:
               m_AudioConfig: {fileID: 0}
               m_AudioClips: []
     - rid: 4821689494049128478
-      type: {class: RandomRecoil, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: RandomRecoil, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_BlockedRecoilItemSubstateIndex: 20
     - rid: 5031970316851871745
-      type: {class: SimpleCombo, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleCombo, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -653,8 +638,7 @@ MonoBehaviour:
               m_AudioClips: []
           - m_States:
             - m_Name: FirstPerson
-              m_Preset: {fileID: 11400000, guid: 561d81a64dc9ae64891e249daa52cdee,
-                type: 2}
+              m_Preset: {fileID: 11400000, guid: 561d81a64dc9ae64891e249daa52cdee, type: 2}
               m_BlockList: []
               m_Default: 0
             - m_Name: Default
@@ -671,13 +655,11 @@ MonoBehaviour:
               m_AudioClips: []
         m_AllowAttackCombos: 1
     - rid: 5031970316851871746
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303884
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -697,8 +679,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5031970493140303885
     - rid: 5031970493140303885
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -710,12 +691,10 @@ MonoBehaviour:
         m_Enabled: 1
         m_Delay: 0
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: d2f7b488ee8141d4fb94bed547512509,
-            type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: d2f7b488ee8141d4fb94bed547512509, type: 2}
           m_AudioClips: []
     - rid: 5642450984374370304
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -735,8 +714,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5642450984374370305
     - rid: 5642450984374370305
-      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -748,10 +726,8 @@ MonoBehaviour:
         m_Enabled: 1
         m_Delay: 0
         m_Prefab:
-          m_FirstPerson: {fileID: 2210633355119226477, guid: 77d65c47dea23ae46a78252e8839981b,
-            type: 3}
-          m_ThirdPerson: {fileID: 6690014396777902469, guid: 5751af2b20021064f9603640c05c0b50,
-            type: 3}
+          m_FirstPerson: {fileID: 2210633355119226477, guid: 77d65c47dea23ae46a78252e8839981b, type: 3}
+          m_ThirdPerson: {fileID: 6690014396777902469, guid: 5751af2b20021064f9603640c05c0b50, type: 3}
         m_Origin:
           m_FirstPerson:
             m_ID: 50099999
@@ -765,8 +741,7 @@ MonoBehaviour:
         m_LocalScale: {x: 1, y: 1, z: 1}
         m_LifeTime: 2
     - rid: 5642450984374370306
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -786,8 +761,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5642450984374370308
     - rid: 5642450984374370307
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -807,8 +781,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5642450984374370309
     - rid: 5642450984374370308
-      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -820,10 +793,8 @@ MonoBehaviour:
         m_Enabled: 1
         m_Delay: 0
         m_Prefab:
-          m_FirstPerson: {fileID: 680958677579385908, guid: e84e1fbbb66728a41a937942dd270f1b,
-            type: 3}
-          m_ThirdPerson: {fileID: 8781562193646847428, guid: 2b465c13c7e4b6942b9d758557a848f2,
-            type: 3}
+          m_FirstPerson: {fileID: 680958677579385908, guid: e84e1fbbb66728a41a937942dd270f1b, type: 3}
+          m_ThirdPerson: {fileID: 8781562193646847428, guid: 2b465c13c7e4b6942b9d758557a848f2, type: 3}
         m_Origin:
           m_FirstPerson:
             m_ID: 50099999
@@ -837,8 +808,7 @@ MonoBehaviour:
         m_LocalScale: {x: 1, y: 1, z: 1}
         m_LifeTime: 2
     - rid: 5642450984374370309
-      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnPrefab, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -851,8 +821,7 @@ MonoBehaviour:
         m_Delay: 0
         m_Prefab:
           m_FirstPerson: {fileID: 0}
-          m_ThirdPerson: {fileID: 1396407771314826275, guid: 32484090b5d550a4088a4d1efa70ffca,
-            type: 3}
+          m_ThirdPerson: {fileID: 1396407771314826275, guid: 32484090b5d550a4088a4d1efa70ffca, type: 3}
         m_Origin:
           m_FirstPerson:
             m_ID: 50099999
@@ -927,8 +896,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -939,8 +907,7 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 4821689494049128470
-      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -966,8 +933,7 @@ MonoBehaviour:
           m_WaitForSlotEvent: 0
         m_SingleHit: 0
     - rid: 4821689494049128473
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -991,8 +957,7 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 4821689494049128474
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1014,8 +979,7 @@ MonoBehaviour:
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
     - rid: 4821689494049128475
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1028,11 +992,9 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb,
-          type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb, type: 2}
     - rid: 4821689494049128476
-      type: {class: SimpleRecoil, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleRecoil, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1063,13 +1025,11 @@ MonoBehaviour:
               m_AudioConfig: {fileID: 0}
               m_AudioClips: []
     - rid: 4821689494049128478
-      type: {class: RandomRecoil, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: RandomRecoil, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_BlockedRecoilItemSubstateIndex: 20
     - rid: 5031970316851871747
-      type: {class: InAir, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: InAir, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1107,13 +1067,11 @@ MonoBehaviour:
         m_CanStopSubstateIndexAddition: 10
         m_RequireInAirAbilityInAir: 1
     - rid: 5031970316851871748
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303886
-      type: {class: SphereOverlapCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SphereOverlapCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1141,8 +1099,7 @@ MonoBehaviour:
         m_SphereCenter: {x: 0, y: 1, z: 1}
         m_SphereRadius: 1
     - rid: 5031970493140303887
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1162,8 +1119,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5031970493140303888
     - rid: 5031970493140303888
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1175,8 +1131,7 @@ MonoBehaviour:
         m_Enabled: 1
         m_Delay: 0
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: 847b10eacbc0e1d4bb9e7ff99e026d6f,
-            type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: 847b10eacbc0e1d4bb9e7ff99e026d6f, type: 2}
           m_AudioClips: []
 --- !u!114 &8697719046947117484
 MonoBehaviour:
@@ -1239,8 +1194,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1251,8 +1205,7 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 4821689494049128470
-      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1278,8 +1231,7 @@ MonoBehaviour:
           m_WaitForSlotEvent: 0
         m_SingleHit: 0
     - rid: 4821689494049128471
-      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1324,8 +1276,7 @@ MonoBehaviour:
             m_SingleHit: 0
             m_SurfaceImpact: {fileID: 0}
     - rid: 4821689494049128473
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1349,8 +1300,7 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 4821689494049128474
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1372,8 +1322,7 @@ MonoBehaviour:
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
     - rid: 4821689494049128475
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1386,11 +1335,9 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb,
-          type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb, type: 2}
     - rid: 5031970316851871749
-      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1427,13 +1374,11 @@ MonoBehaviour:
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
     - rid: 5031970316851871750
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303889
-      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericItemEffects, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1453,8 +1398,7 @@ MonoBehaviour:
           m_Effects:
           - rid: 5031970493140303890
     - rid: 5031970493140303890
-      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: PlayAudioClip, ns: Opsive.UltimateCharacterController.Items.Actions.Effect, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1466,8 +1410,7 @@ MonoBehaviour:
         m_Enabled: 1
         m_Delay: 0
         m_AudioClipSet:
-          m_AudioConfig: {fileID: 11400000, guid: 14fcec8feff854d42a4e7e442e090ca1,
-            type: 2}
+          m_AudioConfig: {fileID: 11400000, guid: 14fcec8feff854d42a4e7e442e090ca1, type: 2}
           m_AudioClips: []
 --- !u!114 &2059239678894466284
 MonoBehaviour:
@@ -1529,8 +1472,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 1000
-      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: CheckTargetImpactConditionBehaviour, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1541,8 +1483,7 @@ MonoBehaviour:
           m_Bindings: []
         m_Enabled: 1
     - rid: 4821689494049128471
-      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: HitboxCollision, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1587,8 +1528,7 @@ MonoBehaviour:
             m_SingleHit: 0
             m_SurfaceImpact: {fileID: 0}
     - rid: 4821689494049128473
-      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: GenericMeleeImpactModule, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1612,8 +1552,7 @@ MonoBehaviour:
         m_FailImpactActions:
           m_ImpactActions: []
     - rid: 4821689494049128474
-      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1635,8 +1574,7 @@ MonoBehaviour:
         m_ImpactRadius: 0
         m_ScaleDamageByImpactStrength: 0
     - rid: 4821689494049128475
-      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1649,11 +1587,9 @@ MonoBehaviour:
         m_Delay: 0
         m_AllowMultiHits: 0
         m_UseContextData: 0
-        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb,
-          type: 2}
+        m_SurfaceImpact: {fileID: 11400000, guid: c5ab4290ae28ad645a9e5b3483fc05cb, type: 2}
     - rid: 5031970316851871751
-      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Simple, ns: Opsive.UltimateCharacterController.Items.Actions.Modules, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1690,13 +1626,11 @@ MonoBehaviour:
         m_CanStopIfInputStop: 0
         m_CanStopSubstateIndexAddition: 10
     - rid: 5031970316851871752
-      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: Sequence, ns: Opsive.UltimateCharacterController.Items.AnimatorAudioStates, asm: Opsive.UltimateCharacterController}
       data:
         m_ResetDelay: -1
     - rid: 5031970493140303892
-      type: {class: MultiAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee,
-        asm: Opsive.UltimateCharacterController}
+      type: {class: MultiAttack, ns: Opsive.UltimateCharacterController.Items.Actions.Modules.Melee, asm: Opsive.UltimateCharacterController}
       data:
         m_States:
         - m_Name: Default
@@ -1773,68 +1707,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4563189728846314}
     m_Modifications:
-    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_Name
       value: ThirdPersonKatana
       objectReference: {fileID: 0}
-    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_Layer
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.000000021855694
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -1842,27 +1763,22 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4154611102301500348}
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7156345844302822983}
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 926161239225471542}
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5676602436628939508}
   m_SourcePrefab: {fileID: 100100000, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
 --- !u!1 &5120707366220307634 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
   m_PrefabInstance: {fileID: 434652209371342442}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &4154611102301500348
@@ -1897,6 +1813,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2017,8 +1934,7 @@ MonoBehaviour:
   m_FirstPersonVisibleOnDeath: 0
 --- !u!4 &5502194317990151688 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
   m_PrefabInstance: {fileID: 434652209371342442}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2508093526555888823
@@ -2029,73 +1945,59 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4563189728846314}
     m_Modifications:
-    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_Name
       value: FirstPersonKatana
       objectReference: {fileID: 0}
-    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_Layer
       value: 29
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.000000021855694
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6492121010547776269, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - target: {fileID: 6492121010547776269, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
@@ -2103,23 +2005,19 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3527747060416870428}
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6398173321503892471}
-    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-        type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1391516238414032610}
   m_SourcePrefab: {fileID: 100100000, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
 --- !u!1 &7194166288614258287 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4690597803236489944, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
   m_PrefabInstance: {fileID: 2508093526555888823}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &3527747060416870428
@@ -2154,6 +2052,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2255,7 +2154,6 @@ MonoBehaviour:
   m_DisableOnUnequip: 1
 --- !u!4 &7538182120578034901 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 5355775518494105698, guid: 75c7f76114ba1954fa1ecf1d58e94dee, type: 3}
   m_PrefabInstance: {fileID: 2508093526555888823}
   m_PrefabAsset: {fileID: 0}

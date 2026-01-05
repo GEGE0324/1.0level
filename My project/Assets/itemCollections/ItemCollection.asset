@@ -13,6 +13,40 @@ MonoBehaviour:
   m_Name: Items
   m_EditorClassIdentifier: 
   m_ID: 176133145
+--- !u!114 &-4396702256864609782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: MyBow
+  m_EditorClassIdentifier: 
+  m_ID: 4
+  m_CategoryIDs: 19947f0a
+  m_Capacity: 2147483647
+  m_Prefabs:
+  - {fileID: 3434243651773959334, guid: 8e8d161f84352b24fad86b226b0e68f0, type: 3}
+--- !u!114 &-1864166006721302105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: MyBowTD
+  m_EditorClassIdentifier: 
+  m_ID: 5
+  m_CategoryIDs: 19947f0a
+  m_Capacity: 2147483647
+  m_Prefabs:
+  - {fileID: 5072980239198942346, guid: 073e32ef99dda49499b1a69274b83564, type: 3}
 --- !u!114 &-1300410014362135325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,6 +83,8 @@ MonoBehaviour:
   - {fileID: 5037061326964697182}
   - {fileID: 8101808196357300539}
   - {fileID: -1300410014362135325}
+  - {fileID: -4396702256864609782}
+  - {fileID: -1864166006721302105}
 --- !u!114 &5037061326964697182
 MonoBehaviour:
   m_ObjectHideFlags: 0
