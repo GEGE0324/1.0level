@@ -14,13 +14,21 @@ public class SkyRailAnchorSwitch : MonoBehaviour
     public float rotateDuration = 0.5f;
 
     private bool onActive = false;
+
     private Coroutine targetRotateCoroutine;
     private Coroutine childRotateCoroutine;
 
+    // ===== 关键新增 =====
+    private int rotateIndex = 0;   // 当前档位（0~3）
+    private float baseY;           // 初始Y角度（可不是0）
+
     private void Awake()
     {
-        // 只监听伤害事件，参数必须匹配这 5 个：伤害量, 位置, 力量, 攻击者, 碰撞体
-        EventHandler.RegisterEvent<float, Vector3, Vector3, GameObject, Collider>(gameObject, "OnHealthDamage", OnDamage);
+        if (targetObject != null)
+            baseY = targetObject.eulerAngles.y;
+
+        EventHandler.RegisterEvent<float, Vector3, Vector3, GameObject, Collider>(
+            gameObject, "OnHealthDamage", OnDamage);
     }
 
     // 无论远程近战，只要造成了伤害就会进这里
@@ -31,7 +39,7 @@ public class SkyRailAnchorSwitch : MonoBehaviour
 
     void HandleHit()
     {
-        // 状态切换逻辑：第一次被砍时激活显示
+        // 第一次激活显示
         if (!onActive)
         {
             onChild?.SetActive(true);
@@ -39,48 +47,63 @@ public class SkyRailAnchorSwitch : MonoBehaviour
             onActive = true;
         }
 
-        // --- 核心改动：支持多次触发 ---
-
-        // 1. targetObject 旋转逻辑
-        // 不再判断 isRotating，只要被砍就重新计算并启动旋转
+        // ===== 目标物体：90°档位旋转 =====
         if (targetObject != null)
         {
-            if (targetRotateCoroutine != null) StopCoroutine(targetRotateCoroutine);
-            targetRotateCoroutine = StartCoroutine(RotateTargetY(90f));
+            rotateIndex = (rotateIndex + 1) % 4;
+            float targetY = baseY + rotateIndex * 90f;
+
+            if (targetRotateCoroutine != null)
+                StopCoroutine(targetRotateCoroutine);
+
+            targetRotateCoroutine = StartCoroutine(RotateTargetToY(targetY));
         }
 
-        // 2. onChild 旋转逻辑
+        // ===== 子物体：持续旋转 =====
         if (onChild != null)
         {
-            if (childRotateCoroutine != null) StopCoroutine(childRotateCoroutine);
+            if (childRotateCoroutine != null)
+                StopCoroutine(childRotateCoroutine);
+
             childRotateCoroutine = StartCoroutine(RotateChildY(180f));
         }
     }
 
-    IEnumerator RotateTargetY(float angle)
+    // ================= 目标物体旋转（稳定） =================
+    IEnumerator RotateTargetToY(float targetY)
     {
-        float rotated = 0f;
-        float speed = angle / rotateDuration;
-        while (rotated < angle)
+        float startY = targetObject.eulerAngles.y;
+        float elapsed = 0f;
+
+        while (elapsed < rotateDuration)
         {
-            float step = speed * Time.deltaTime;
-            if (rotated + step > angle) step = angle - rotated;
-            targetObject.Rotate(Vector3.up * step);
-            rotated += step;
+            float t = elapsed / rotateDuration;
+            float y = Mathf.LerpAngle(startY, targetY, t);
+
+            Vector3 euler = targetObject.eulerAngles;
+            euler.y = y;
+            targetObject.eulerAngles = euler;
+
+            elapsed += Time.deltaTime;
             yield return null;
         }
-        Vector3 euler = targetObject.eulerAngles;
-        euler.y = Mathf.Round(euler.y / 90f) * 90f;
-        targetObject.eulerAngles = euler;
+
+        Vector3 finalEuler = targetObject.eulerAngles;
+        finalEuler.y = targetY;
+        targetObject.eulerAngles = finalEuler;
     }
 
+    // ================= 子物体旋转 =================
     IEnumerator RotateChildY(float angle)
     {
         float rotated = 0f;
+
         while (rotated < angle)
         {
             float step = onRotateSpeed * Time.deltaTime;
-            if (rotated + step > angle) step = angle - rotated;
+            if (rotated + step > angle)
+                step = angle - rotated;
+
             onChild.transform.Rotate(Vector3.up * step);
             rotated += step;
             yield return null;
@@ -89,7 +112,8 @@ public class SkyRailAnchorSwitch : MonoBehaviour
 
     private void OnDestroy()
     {
-        EventHandler.UnregisterEvent<float, Vector3, Vector3, GameObject, Collider>(gameObject, "OnHealthDamage", OnDamage);
+        EventHandler.UnregisterEvent<float, Vector3, Vector3, GameObject, Collider>(
+            gameObject, "OnHealthDamage", OnDamage);
     }
 
     private void OnDisable()

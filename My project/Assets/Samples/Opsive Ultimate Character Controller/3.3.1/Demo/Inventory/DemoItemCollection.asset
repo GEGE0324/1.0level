@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5062832451081060816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: EnemyBow
+  m_EditorClassIdentifier: 
+  m_ID: 25
+  m_CategoryIDs: bf70bfd8
+  m_Capacity: 2147483647
+  m_Prefabs: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,6 +61,7 @@ MonoBehaviour:
   - {fileID: 114597926302919460}
   - {fileID: 114719901230668630}
   - {fileID: 114327507680120068}
+  - {fileID: -5062832451081060816}
 --- !u!114 &114038489858704770
 MonoBehaviour:
   m_ObjectHideFlags: 0
