@@ -62,7 +62,7 @@ MonoBehaviour:
     m_Preset: {fileID: 0}
     m_BlockList: []
     m_Default: 1
-  m_ItemDefinition: {fileID: 4345540348323781844, guid: 5481010ef14c32f4cb7b6661b0c59fb4, type: 2}
+  m_ItemDefinition: {fileID: 0}
   m_SlotID: 1
   m_AnimatorItemID: 4
   m_AnimatorMovementSetID: 2
@@ -323,7 +323,7 @@ MonoBehaviour:
     m_WaitForSlotEvent: 0
   m_UseCompleteEvent:
     m_WaitForAnimationEvent: 0
-    m_Duration: 2.5
+    m_Duration: 0
     m_WaitForSlotEvent: 0
   m_ForceRootMotionPosition: 0
   m_ForceRootMotionRotation: 0
@@ -404,18 +404,18 @@ MonoBehaviour:
           m_AudioClips: []
         m_MinChargeForce: 0.1
         m_MaxChargeForce: 1
-        m_ChargeTimeForceNormalizer: 1
+        m_ChargeTimeForceNormalizer: 0.001
         m_ChargeSubstateParameterValue:
           m_Additive: 0
           m_Index: 0
           m_Priority: 100
         m_MinChargeCompleteEvent:
           m_WaitForAnimationEvent: 0
-          m_Duration: 0.2
+          m_Duration: 0
           m_WaitForSlotEvent: 0
         m_MaxChargeCompleteEvent:
           m_WaitForAnimationEvent: 0
-          m_Duration: 0.2
+          m_Duration: 0
           m_WaitForSlotEvent: 0
         m_DepleteChargeSubstateParameterValue:
           m_Additive: 0

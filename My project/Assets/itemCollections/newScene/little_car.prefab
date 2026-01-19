@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2755
+  m_VersionIndex: 2761
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3873,7 +3873,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2752
+  m_VersionIndex: 2758
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -3999,7 +3999,6 @@ GameObject:
   - component: {fileID: 9095235620698839972}
   - component: {fileID: 4514066750011149462}
   - component: {fileID: 7028297495635396297}
-  - component: {fileID: 7840496354983823198}
   m_Layer: 27
   m_Name: little_car
   m_TagString: Untagged
@@ -4482,7 +4481,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2680
+  m_VersionIndex: 2686
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4626,20 +4625,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.4188807, y: 2.1387954, z: 3.6251152}
   m_Center: {x: 0.0000021419894, y: -0.38137475, z: -0.0000024109095}
---- !u!114 &7840496354983823198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5229503242325527108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4deccc555cc6c7f469bf9446351c14ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerAnchor: {fileID: 8157008996298951097}
-  interactionRange: 1.5
 --- !u!1 &6385005836491655330
 GameObject:
   m_ObjectHideFlags: 0
@@ -6506,7 +6491,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2755
+  m_VersionIndex: 2761
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8513,7 +8498,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2755
+  m_VersionIndex: 2761
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -8863,8 +8848,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.4407694, y: 14.388964, z: 5.4725423}
-  m_Center: {x: 0.24353679, y: 4.542953, z: -0.06116828}
+  m_Size: {x: 2.4407694, y: 9.80464, z: 5.4725423}
+  m_Center: {x: 0.2435351, y: 2.2507915, z: -0.06116804}
 --- !u!1001 &4208797127821952679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9100,8 +9085,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5214758, y: 13.899376, z: 6.220717}
-  m_Center: {x: -0.28416, y: 4.298162, z: -0.04172137}
+  m_Size: {x: 2.5214758, y: 9.604929, z: 6.220717}
+  m_Center: {x: -0.28416157, y: 2.1509368, z: -0.041721147}
 --- !u!4 &4208797127822089255 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 19306109479d0594aa376aaa54e18a2f, type: 3}

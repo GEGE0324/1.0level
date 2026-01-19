@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
-using Opsive.UltimateCharacterController.Character; // ±ØĞëÒıÓÃÕâ¸ö
+using Opsive.UltimateCharacterController.Character; // å¿…é¡»å¼•ç”¨è¿™ä¸ª
 
 public class SimpleUCCBridge : MonoBehaviour
 {
@@ -12,9 +12,9 @@ public class SimpleUCCBridge : MonoBehaviour
         m_NavMeshAgent = GetComponent<NavMeshAgent>();
         m_CharacterLocomotion = GetComponent<UltimateCharacterLocomotion>();
 
-        // ¹Ø¼ü£º½ûÖ¹ Agent Ö±½Ó°á¶¯Ä£ĞÍ
+        // å…³é”®ï¼šç¦æ­¢ Agent ç›´æ¥æ¬åŠ¨æ¨¡å‹
         m_NavMeshAgent.updatePosition = false;
-        // ½ûÖ¹ Agent ×Ô¶¯Ğı×ª£¨Èç¹û¶¶¶¯°üº¬Ğı×ª·½Ïò£¬ÇëÒ²ÉèÎª false£©
+        // ç¦æ­¢ Agent è‡ªåŠ¨æ—‹è½¬ï¼ˆå¦‚æœæŠ–åŠ¨åŒ…å«æ—‹è½¬æ–¹å‘ï¼Œè¯·ä¹Ÿè®¾ä¸º falseï¼‰
         m_NavMeshAgent.updateRotation = false;
     }
 
@@ -22,16 +22,26 @@ public class SimpleUCCBridge : MonoBehaviour
     {
         if (m_NavMeshAgent.isActiveAndEnabled && m_NavMeshAgent.isOnNavMesh)
         {
-            // ¼ÆËãÏÂÒ»Ö¡µÄÊäÈë·½Ïò
+            // ğŸ”’ å½“ Agent è¢«åœæ­¢æ—¶ (ä¾‹å¦‚ç„å‡†çŠ¶æ€)ï¼Œä¸è¦ç»§ç»­ç§»åŠ¨
+            // è¿™æ ·å¯ä»¥é˜²æ­¢æ•Œäººç„å‡†ç©å®¶æ—¶è‡ªå·±çš„ä½ç½®å‘ç”Ÿæ¼‚ç§»
+            if (m_NavMeshAgent.isStopped)
+            {
+                // åªåŒæ­¥ä½ç½®ï¼Œä¸äº§ç”Ÿç§»åŠ¨
+                m_CharacterLocomotion.Move(0, 0, 0);
+                m_NavMeshAgent.nextPosition = transform.position;
+                return;
+            }
+
+            // è·å–ä¸€å¸§çš„æœŸæœ›æ–¹å‘
             Vector3 desiredVelocity = m_NavMeshAgent.desiredVelocity;
             Vector3 input = transform.InverseTransformDirection(desiredVelocity);
 
-            // Ê¹ÓÃ Move ·½·¨ÈÃ Opsive µÄÎïÀíÒıÇæÖ´ĞĞÕæÊµÎ»ÒÆ
-            // ½¨Òé¸øÊäÈëÖµ¼ÓÒ»¸öÏŞÖÆ£¬·ÀÖ¹ÊıÖµ¹ı´óµ¼ÖÂË²¼äµ¯Éä
+            // ä½¿ç”¨ Move è®© Opsive æ¥ç®¡å®é™…ä½ç§»
+            // æ•°å€¼å¯ä»¥è°ƒæ•´ä¸€ä¸‹ï¼Œé˜²æ­¢æ•°å€¼å¤ªå¤§ç¬é—´å¼¹å¼€
             m_CharacterLocomotion.Move(Mathf.Clamp(input.x, -1, 1), Mathf.Clamp(input.z, -1, 1), 0);
 
-            // ºËĞÄ£ºÊÖ¶¯½« Agent µÄÂß¼­ÖĞĞÄÀ­»Øµ½½ÇÉ«µ±Ç°µÄÕæÊµÎ»ÖÃ
-            // ÕâÑù Agent µÄÂ·¾¶¼ÆËã¾Í»áÒÔ½ÇÉ«Ä£ĞÍÎªÆğµã£¬Ïû³ı¶¶¶¯
+            // å…³é”®ï¼šæ‰‹åŠ¨åŒæ­¥ Agent çš„é€»è¾‘å›åˆ°è§’è‰²çš„çœŸå®ä½ç½®
+            // è¿™ä¼šè®© Agent çš„å¯¼èˆªé€»è¾‘å¯¹è§’è‰²æ¨¡å‹ä¸ºä¸­å¿ƒï¼Œé¿å…å†²çª
             m_NavMeshAgent.nextPosition = transform.position;
         }
     }

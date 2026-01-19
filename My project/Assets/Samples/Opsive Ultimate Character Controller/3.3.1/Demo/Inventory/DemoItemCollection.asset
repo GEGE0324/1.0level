@@ -15,7 +15,8 @@ MonoBehaviour:
   m_ID: 25
   m_CategoryIDs: bf70bfd8
   m_Capacity: 2147483647
-  m_Prefabs: []
+  m_Prefabs:
+  - {fileID: 1834043069192340, guid: 522a17160ed89b24f8203c10524804b8, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

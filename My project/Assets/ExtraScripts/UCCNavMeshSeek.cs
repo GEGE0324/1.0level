@@ -23,7 +23,8 @@ public class UCCNavMeshSeek : Action
     {
         if (navMeshAbility != null && target.Value != null)
         {
-            // È·±£µ¼º½ÄÜÁ¦´¦ÓÚ¼¤»î×´Ì¬
+            Debug.Log($"UCCNavMeshSeek: OnStart. Target: {target.Value.position}");
+            // ç¡®ä¿æ¿€æ´»çŠ¶æ€
             if (!navMeshAbility.IsActive)
             {
                 locomotion.TryStartAbility(navMeshAbility);
@@ -36,18 +37,19 @@ public class UCCNavMeshSeek : Action
     {
         if (navMeshAbility == null || target.Value == null) return TaskStatus.Failure;
 
-        // ºËĞÄ£ºÃ¿Ò»Ö¡Í¬²½Íæ¼ÒÎ»ÖÃ£¬ÊµÏÖ¶¯Ì¬×·×Ù
+        // æ ¸å¿ƒï¼šæ¯ä¸€å¸§åŒæ­¥ç›®æ ‡ï¼Œå®ç°åŠ¨æ€è¿½å‡»
         navMeshAbility.SetDestination(target.Value.position);
 
-        // Èç¹ûÄÜÁ¦±»ÆäËû¶¯×÷ÒâÍâ´ò¶Ï£¬³¢ÊÔÖØĞÂÆô¶¯
+        // ä¿åº•
         if (!navMeshAbility.IsActive)
         {
             locomotion.TryStartAbility(navMeshAbility);
         }
 
-        // µ½´ïÅĞ¶¨£º¸ù¾İ NavMeshAgent µÄ Stopping Distance ¾ö¶¨
+        // åˆ¤æ–­ NavMeshAgent çš„ Stopping Distance åˆ°è¾¾
         if (navMeshAbility.HasArrived)
         {
+            Debug.Log("UCCNavMeshSeek: Arrived at target.");
             return TaskStatus.Success;
         }
 
